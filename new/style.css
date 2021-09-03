@@ -1,0 +1,29 @@
+ body{
+	 margin:0;
+	 padding:0;
+ }
+.triangle{
+	width:0px;
+	height:0px;
+	border-bottom:200px solid;
+	border-bottom-color:#76D7C4;
+	border-left:1367px solid #C39BD3;
+	border-right:0px solid transparent;
+
+}
+.middle{
+	width:0px;
+	height:0px;
+	border-bottom:200px solid;
+	border-bottom-color:#76D7C4;
+	border-left:0px solid transparent;
+	border-right:1367px solid #C39BD3;
+}
+.footer{
+	width:0px;
+	height:0px;
+	border-bottom:200px solid;
+	border-bottom-color:#76D7C4;
+	border-left:1366px solid #C39BD3;
+	border-right:0px solid transparent;
+}

@@ -1,0 +1,236 @@
+*{margin:0;padding:0}
+body{font-family:Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
+p{line-height: 150%;margin-bottom: 2em;}
+.container_full {width: 100%; height: auto;}
+.container {width:980px; margin:0 auto; display:block }
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left}
+.floatright{float:right}
+/*---------------------------*/
+.header_bg{
+	background-color:#292929;
+	overflow:hidden;
+}
+#header .logo h1{
+	font-family:lato;
+	font-size:40px;
+	font-weight:bold;
+	color:#fff;
+	padding-top:25px;
+}
+
+#menu{
+	list-style-type:none;
+	
+}
+#menu li{
+	float:left;
+	border-right:1px solid #1D1D1D;
+}
+#menu li:first-child{
+	border-left:1px solid #1D1D1D;
+}
+#menu li a{
+	display:block;
+	padding:50px 30px;
+	font-family:lato;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	border-bottom:5px solid #1E1E1E;
+}
+#menu li a:hover{
+	border-bottom:5px solid #58C93A;
+	color:#58C93A;
+}
+.full_content_width{
+	border-top:5px solid #1E1E1E;
+	margin-top:-5px;
+	border-bottom:1px solid #E1E0E0;
+}
+.content_wrapper{
+	border-right:1px solid #E1E0E0;
+	border-left:1px solid #E1E0E0;
+	margin-top:-10px;
+	padding-top:70px;
+}
+.left_content{
+	width:620px;
+	margin-right:70px;
+}
+.left_content img{
+	width:620px;
+	height:308px;
+}
+.left_content .single_article h2{
+	font-family:lato;
+	font-weight:bold;
+	font-size:28px;
+	color:#4F4E4E;
+	text-transform:uppercase;
+	padding-left:15px;
+	
+}
+.left_content .single_article p{
+	font-family:lato;
+	font-size:16px;
+	color:#6E6E6E;
+	padding-left:15px;
+	
+}
+.left_content .single_article .continue{
+	font-family:lato;
+	font-size:16px;
+	font-weight:bold;
+	color:#C2C1C1;
+	border:2px solid #C2C2C2;
+	padding:10px 35px;
+	border-radius:25px;
+	margin-left:15px;
+}
+
+.article-margin{
+	margin:70px 0px;
+}
+.content_bottom{
+	display:block;
+}
+.sidebar{
+	width:280px;
+	overflow:hidden;
+}
+.sidebar .single_sidebar h2{
+	font-family:lato;
+	font-weight:bold;
+	font-size:16px;
+	text-transform:uppercase;
+	background-color:#F8F8F8;
+	border-left:3px solid #58C93A;
+	padding:20px 20px;
+	color:#6C6969;
+	margin-top:-5px;
+}
+.sidebar .single_sidebar p{
+	padding-left:20px;
+	padding-top:10px;
+	margin-bottom:0px;
+	color:#737373;
+}
+.sidebar .sizing{
+	margin-top:75px;
+	
+}
+.sidebar .sizing input{
+	margin-top:20px;
+	height:50px;
+	width:100%;
+	padding:0px 20px;
+	border:1px solid #E1E0E0;
+	color:#B9B9B9;
+}
+.email_submit{
+	position:relative;
+	overflow:hidden;
+}
+.email_submit input[type="submit"]{
+	background:url(images/submit_icon.png) no-repeat;
+	height:30px;
+	width:30px;
+	border:none;
+	position:absolute;
+	top:13px;
+	right:2px;
+	cursor:pointer;
+}
+.content_bottom{
+	border-top:1px solid #E1E0E0;
+	border-left:1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+	padding:25px;
+	overflow:hidden;
+}
+.content_bottom .previous{
+	color:#818181;
+	float:left;
+	font-family:lato;
+	font-weight:bold;
+	font-size:18px;
+}
+.content_bottom .next{
+	color:#818181;
+	float:right;
+}
+.footer_bg{
+	background:#F8F8F8;
+	margin-top:-10px;
+	padding:30px 0px;
+}
+footer{
+	text-align:center;
+}
+footer h1{
+	color:#292929;
+	font-family:lato;
+	font-weight:bold;
+	font-size:40px;
+}
+footer p{
+	color:#D4D4D4;
+	font-family:lato;
+	font-size:13px;
+}
+footer .social_area{
+	
+}
+footer .social_area ul{
+	list-style:none;
+}
+footer .social_area ul li{
+	display:inline-block;
+	margin:0 10px;
+}
+footer .social_area ul .fb a{
+	
+	height:40px;
+	width:40px;
+	background:url(images/fb1.png) no-repeat;
+	float:left;
+}
+footer .social_area ul .fb:hover a{
+	background:url(images/fb.png) no-repeat;
+}
+footer .social_area ul .tw a{
+	
+	height:40px;
+	width:40px;
+	background:url(images/tw.png) no-repeat;
+	float:left;
+}
+footer .social_area ul .tw:hover a{
+	background:url(images/tw1.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

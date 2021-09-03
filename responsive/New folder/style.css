@@ -1,0 +1,43 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+.header{
+	height:250px;
+	width:100%;
+	background-color:#ffb3b3;
+}
+.left{
+	height:250px;
+	width:25%;
+	background-color:#69A3E6;
+	float:left;
+
+}
+.center{
+	height:250px;
+	width:50%;
+	background-color:#FF0000;
+	float:left;
+
+}
+.right{
+	height:250px;
+	width:25%;
+	background-color:#69A3E6;
+	float:left;
+}
+.footer{
+	height:250px;
+	width:100%;
+	background-color:#353535;
+	
+}
+.total:after{
+	content:'';
+	display:block;
+	clear:both;
+	
+}

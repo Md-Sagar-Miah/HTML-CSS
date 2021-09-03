@@ -1,0 +1,42 @@
+*{
+	margin-top:8px;
+}
+.box{
+	height:300px;
+	width:300px;
+	background:red;
+	margin:150px auto;
+	position:relative;
+	transition:5s;
+}
+.box:before{
+	background:blue;
+	height:150px;
+	width:150px;
+	content:"";
+	display:block;
+	position:absolute;
+	top:-150px;
+	left:-150px;
+	transition:2s;
+}
+.box:after{
+	background:green;
+	height:150px;
+	width:150px;
+	content:"";
+	display:block;
+	position:absolute;
+	top:100%;
+	left:100%;
+	transition:2s;
+	
+}
+.box:hover:before{
+	top:100%;
+	left:100%;
+}
+.box:hover:after{
+	top:-150px;
+	left:-150px;
+}

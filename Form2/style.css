@@ -1,0 +1,45 @@
+.resize{
+	background:transparent;
+	border:1px solid green;
+	border-radius:5px;
+	height:30px;
+	width:300px;
+}
+input[type="submit"]{
+	background:transparent;
+	color:blue;
+	font-weight:bold;
+	border:1px solid blue;
+	border-radius:5px;
+	height:30px;
+	width:150px;
+	
+}
+input[type="reset"]{
+	background:transparent;
+	color:red;
+	font-weight:bold;
+	border:1px solid red;
+	border-radius:5px;
+	height:30px;
+	width:150px;
+}
+input[type="radio"]{
+	height:30px;
+	width:100px; 
+}
+textarea{
+	background:transparent;
+	border:1px solid green;
+	border-radius:5px;
+}
+form{
+	height:600px;
+	width:600px;
+	margin-left:100px;
+}
+fieldset{
+	background:url(images.jpg);
+	border:1px solid red;
+	border-radius:20px;
+}

@@ -1,0 +1,13 @@
+table{
+	width:800px;
+	text-align:center;
+	margin:50px auto;
+	background-color:yellow;
+}
+table,th,td{
+	border-collapse:collapse;
+	border: 2px solid red;
+}
+.left{
+	text-align:left;
+}

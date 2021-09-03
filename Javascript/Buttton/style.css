@@ -1,0 +1,14 @@
+.log{
+	width:150px;
+	height:30px;
+	border-radius:15px;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	transition:all 1s ease;
+}
+.log:hover{
+	background:white;
+	color:black;
+	cursor:pointer;
+}

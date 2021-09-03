@@ -1,0 +1,27 @@
+body{
+	background-image:url(images.jpg);
+	background-size:cover;
+}
+h2{
+   color:red;
+   margin-left:423px;
+   font-style:italic;
+}
+.form{
+	width:500px;
+	margin:auto;
+	font-size:26px;
+}
+.form input{
+	border:1px solid red;
+	cursor:pointer;
+}
+.form select{
+	border:1px solid red;
+	cursor:pointer;
+}
+@media all and (max-width:800px){
+	h2{
+		margin-left:0px;
+	}
+}

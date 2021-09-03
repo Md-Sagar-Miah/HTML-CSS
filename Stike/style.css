@@ -1,0 +1,10 @@
+#sticker{
+	background:green;
+	color:#fff;
+	display:inline;
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+}

@@ -1,0 +1,30 @@
+*{margin:0;
+padding:0;}
+ul{
+	list-style-type:none;
+	margin:200px;
+	
+}
+ul li{
+	margin-bottom:20px;
+}
+ul li a{
+	color:#fff;
+	background-color:black;
+	display;inline-block;
+	padding:8px 60px;
+	text-decoration:none;
+}
+ul li a:hover{
+	background-color:orange;
+	
+}
+ul li a:active{
+	background-color:red;
+}
+ul li a:focus{
+	background-color:yellow;
+}
+ul li a:visited{
+	background-color:blue;
+}

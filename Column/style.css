@@ -1,0 +1,39 @@
+*{margin:0; padding:0;}
+.wrapper{
+	width:960px;
+	margin:50px auto;
+}
+img{
+	width:300px;
+	height:180px;
+}
+.box{
+	width:300px;
+	float:left;
+
+}
+.margin{
+	margin-left:30px;
+	margin-right:30px;
+}
+.box h2{
+	color:orange;
+}
+.box p{
+	text-align:justify;
+}
+.box a{
+	text-decoration:none;
+	background-color:orange;
+	color:red;
+	display:block;
+	text-align:center;
+	margin-top:5px;
+	padding:3px 0;
+	border-radius:50%;
+	transition:all 1s ease;
+}
+.box a:hover{
+	background-color:green;
+	color:white;
+}

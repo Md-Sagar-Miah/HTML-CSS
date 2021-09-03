@@ -1,0 +1,47 @@
+.div1{
+	height:500px;
+	width:500px;
+	background-color:red;
+	animation-name:circle;
+	animation-duration:6s;
+	animation-iteration-count:3;
+	animation-delay:2s;
+	
+}
+
+@keyframes circle{
+	/*  
+	from{
+		background-color:red;
+	}
+	to{
+		background-color:green;
+		border-radius:50%;
+	}	
+	*/
+	0%{
+		background-color:red;
+	}
+	20%{
+		background-color:green;
+		border-radius:50%;
+	}
+	40%{
+		background-color:yellow;
+		border-radius:50%;
+	}
+	60%{
+		background-color:blue;
+		border-radius:50%;
+	}
+	80%{
+		background-color:purple;
+		border-radius:50%;
+	}
+	100%{
+		background-color:red;
+	}
+	
+	
+
+}

@@ -1,0 +1,11 @@
+@media all and (max-width:800px){
+.main .content{
+	width:100%;
+	float:none;
+}
+.main aside{
+	margin-top:20px;
+	width:100%;
+}
+
+}

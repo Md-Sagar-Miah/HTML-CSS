@@ -1,0 +1,23 @@
+@media all and (max-width:800px){
+.left{
+	width:30%;
+}
+.center{
+	width:40%;
+}
+.right{
+	width:30%;
+}
+@media all and (max-width:700px){
+.left{
+	width:100%;
+	float:none;
+}
+.center{
+	width:100%;
+	float:none;
+}
+.right{
+	width:100%;
+	float:none;
+}
